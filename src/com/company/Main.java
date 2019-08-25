@@ -13,6 +13,9 @@ public class Main {
             System.out.println("Отправляется к своему другу");
 
 
+
+
+
         }
 
         if ((age < 20) && (temp < 0 || temp < 28)) {
