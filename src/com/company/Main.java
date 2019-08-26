@@ -12,17 +12,22 @@ public class Main {
         } else {
             System.out.println("Отправляется к своему другу");
 
-
-
-
-
         }
 
         if ((age < 20) && (temp < 0 || temp < 28)) {
             System.out.println("Условия остаются прежними");
+        } else {
+            System.out.println("Отправляется к своему другу");
+
         }
         if ((age > 45) && (temp > -10 || temp < 25)) {
-        }
+        System.out.println("Условия остаются прежними");
+    } else {
+        System.out.println("Отправляется к своему другу");
+
+    }
+
+
 
     }
 }
